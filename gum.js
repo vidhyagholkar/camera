@@ -1,6 +1,6 @@
 navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia
 window.URL = window.URL || window.webkitURL
-video = document.getElementById('me');
+video = document.getElementById('primaryCam');
 
 var constraints =  {video: true}
 if (navigator.getUserMedia) {
