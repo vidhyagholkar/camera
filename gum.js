@@ -17,8 +17,8 @@ if (navigator.getUserMedia) {
 				video.src = window.URL.createObjectURL(stream)
 			}
 			console.log('Object created')
-		}
-	}, 
+		},
+
 		function(err){
 			document.getElementById("one").innerHTML = "Something went wrong"
 			console.log('Problem getting Stream')
